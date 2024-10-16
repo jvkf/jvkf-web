@@ -1,4 +1,5 @@
 import { inter } from '@/app/ui/fonts';
+import Footer from '@/app/ui/footer/footer';
 import '@/app/ui/global.css';
 import type { Locale } from '@/i18n/routing';
 import { routing } from '@/i18n/routing';
@@ -50,6 +51,7 @@ export default async function HomeLayout({
             <main className="flex-1 flex items-center justify-center">
               {children}
             </main>
+            <Footer />
           </div>
         </NextIntlClientProvider>
       </body>
