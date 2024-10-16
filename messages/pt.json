@@ -1,0 +1,21 @@
+{
+  "Error": {
+    "description": "<p>Infelizmente, encontramos um erro.</p><p>Você pode tentar <retry>recarregar a página</retry> que estava visitando.</p>",
+    "title": "Algo deu errado!"
+  },
+  "Home": {
+    "test": "olá mundo"
+  },
+  "HomeLayout": {
+    "title": "João Vítor Ferraz (p1pa) - Desenvolvedor Fullstack",
+    "description": "Em progresso..."
+  },
+  "NotFoundPage": {
+    "description": "Por favor, verifique novamente a barra de endereço do navegador ou use a navegação para ir a uma página conhecida.",
+    "title": "Página não encontrada"
+  },
+  "Footer": {
+    "cv-name": "currículo",
+    "cv-link": "/"
+  }
+}

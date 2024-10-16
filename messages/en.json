@@ -1,0 +1,21 @@
+{
+  "Error": {
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+    "title": "Something went wrong!"
+  },
+  "Home": {
+    "test": "hello world"
+  },
+  "HomeLayout": {
+    "title": "João Vítor Ferraz (p1pa) - Fullstack Developer",
+    "description": "In progress..."
+  },
+  "NotFoundPage": {
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "title": "Page not found"
+  },
+  "Footer": {
+    "cv-name": "resume",
+    "cv-link": "/"
+  }
+}
