@@ -1,4 +1,5 @@
 import { inter } from '@/app/ui/fonts';
+import '@/app/ui/global.css';
 import type { Locale } from '@/i18n/routing';
 import { routing } from '@/i18n/routing';
 import clsx from 'clsx';
