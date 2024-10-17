@@ -1,6 +1,7 @@
 import { inter } from '@/app/ui/fonts';
 import Footer from '@/app/ui/footer/footer';
 import '@/app/ui/global.css';
+import Navigation from '@/app/ui/navigation/navigation';
 import type { Locale } from '@/i18n/routing';
 import { routing } from '@/i18n/routing';
 import clsx from 'clsx';
@@ -45,9 +46,7 @@ export default async function HomeLayout({
       <body className={clsx(inter.className)}>
         <NextIntlClientProvider messages={messages}>
           <div className="app_container">
-            <header>
-              <p>test</p>
-            </header>
+            <Navigation />
             <main className="flex-1 flex items-center justify-center">
               {children}
             </main>

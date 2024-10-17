@@ -15,7 +15,7 @@ body {
 
 .app_container {
   display: grid;
-  grid-template-rows: 75px 1fr 150px;
+  grid-template-rows: 100px 1fr 150px;
   max-width: 800px;
   margin: 0 auto;
   min-height: 100vh;

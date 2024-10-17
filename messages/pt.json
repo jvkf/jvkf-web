@@ -17,5 +17,10 @@
   "Footer": {
     "cv-name": "currículo",
     "cv-link": "/"
+  },
+  "Navigation": {
+    "about": "sobre",
+    "work": "experiência"
+  },
   }
 }
