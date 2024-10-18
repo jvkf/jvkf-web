@@ -1,19 +1,11 @@
 {
-  "Error": {
-    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
-    "title": "Something went wrong!"
-  },
   "HomeLayout": {
     "title": "João Vítor Ferraz (p1pa) - Fullstack Developer",
-    "description": "In progress..."
-  },
-  "NotFoundPage": {
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
-    "title": "Page not found"
+    "description": "Experienced fullstack developer with 3 years of expertise in React, Node.js, and TypeScript. Specializing in clean, performant web applications using Next.js, Express, Docker, and Git. Fluent in Portuguese, English, and Spanish. Based in Florianópolis, Brazil. Explore my portfolio to see my skills in action."
   },
   "Footer": {
     "cv-name": "resume",
-    "cv-link": "/"
+    "cv-link": "/english-cv.pdf"
   },
   "Switch": {
     "sr-text": "Click to change to the language:"

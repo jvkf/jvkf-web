@@ -1,19 +1,11 @@
 {
-  "Error": {
-    "description": "<p>Infelizmente, encontramos um erro.</p><p>Você pode tentar <retry>recarregar a página</retry> que estava visitando.</p>",
-    "title": "Algo deu errado!"
-  },
   "HomeLayout": {
     "title": "João Vítor Ferraz (p1pa) - Desenvolvedor Fullstack",
-    "description": "Em progresso..."
-  },
-  "NotFoundPage": {
-    "description": "Por favor, verifique novamente a barra de endereço do navegador ou use a navegação para ir a uma página conhecida.",
-    "title": "Página não encontrada"
+    "description": "Desenvolvedor fullstack experiente com 3 anos de expertise em React, Node.js e TypeScript. Especializado em aplicações web limpas e performáticas usando Next.js, Express, Docker e Git. Fluente em português, inglês e espanhol. Baseado em Florianópolis, Brasil. Explore meu portfólio para ver minhas habilidades em ação."
   },
   "Footer": {
     "cv-name": "currículo",
-    "cv-link": "/"
+    "cv-link": "/pt-cv.pdf"
   },
   "Switch": {
     "sr-text": "Clique para mudar o idioma para:"
