@@ -47,9 +47,7 @@ export default async function HomeLayout({
         <NextIntlClientProvider messages={messages}>
           <div className="app_container">
             <Navigation />
-            <main className="flex-1 flex items-center justify-center">
-              {children}
-            </main>
+            {children}
             <Footer />
           </div>
         </NextIntlClientProvider>
