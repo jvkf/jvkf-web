@@ -5,6 +5,7 @@ import Navigation from '@/app/ui/navigation/navigation';
 import type { Locale } from '@/i18n/routing';
 import { routing } from '@/i18n/routing';
 import clsx from 'clsx';
+import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import {
   getMessages,
@@ -24,7 +25,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({
   params: { locale },
-}: Omit<Props, 'children'>) {
+}: Omit<Props, 'children'>): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'HomeLayout' });
 
   return {
@@ -41,6 +42,18 @@ export async function generateMetadata({
           width: 400,
           height: 400,
         },
+      ],
+    },
+    icons: {
+      icon: [
+        { url: '/favicon.ico' },
+        { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+        { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      ],
+      apple: [{ url: '/apple-touch-icon.png' }],
+      other: [
+        { rel: 'android-chrome-192x192', url: '/android-chrome-192x192.png' },
+        { rel: 'android-chrome-512x512', url: '/android-chrome-512x512.png' },
       ],
     },
   };
