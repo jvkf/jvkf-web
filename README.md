@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# João Vítor Ferraz (p1pa) - Personal Website
 
-## Getting Started
+Welcome to my personal portfolio website! This project showcases my skills, projects, and professional experience as a fullstack developer so far. Built with modern technologies and best practices, the website serves as a dynamic platform to present my expertise and connect with potential collaborators and employers.
 
-First, run the development server:
+## 🚀 Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **[Next.js](https://nextjs.org):** Leveraged for its powerful server-side rendering and static site generation capabilities, ensuring optimal performance and SEO friendliness.
+- **[React](https://reactjs.org):** Utilized for building reusable UI components and managing the application's state efficiently.
+- **[TypeScript](https://www.typescriptlang.org):** Implemented to enhance code quality and maintainability through static type checking.
+- **[Tailwind CSS](https://tailwindcss.com):** Adopted for rapid and responsive UI development with utility-first CSS classes.
+- **[Next-Intl](https://next-intl.vercel.app):** Integrated for seamless internationalization, supporting both English and Portuguese languages.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Responsive Design:** Ensures a seamless user experience across various devices and screen sizes.
+- **Internationalization (i18n):** Supports multiple languages (English and Portuguese) to cater to a diverse audience.
+- **Dynamic Routing:** Utilizes Next.js's dynamic routing for clean and intuitive navigation.
+- **Optimized Performance:** Implements best practices for performance optimization, including image optimization and code splitting.
+- **Accessible Navigation:** Focuses on accessibility to provide an inclusive experience for all users.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Project Strategy
 
-## Learn More
+The primary goal of this project is to create a professional and personal online presence that effectively communicates my skills and experiences with a minimalist aesthetic. The strategy behind the development focuses on:
 
-To learn more about Next.js, take a look at the following resources:
+- **User Experience (UX):** Designing intuitive navigation and a clean layout to ensure visitors can easily find information.
+- **Maintainability:** Writing clean, modular, and well-documented code to simplify future maintenance and updates.
+- **SEO Best Practices:** Ensuring the website is discoverable through search engines by following SEO best practices.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📫 Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Feel free to reach out to me via [email](mailto:hi@p1pa.dev) or connect with me on [LinkedIn](https://linkedin.com/in/jvkf) and [GitHub](https://github.com/p1padev).
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thank you for visiting my portfolio!

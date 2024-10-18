@@ -1,5 +1,4 @@
 import { Link } from '@/i18n/routing';
-import { ExternalLink } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 export default function Bio() {
