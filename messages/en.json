@@ -22,5 +22,15 @@
     "about": "about",
     "work": "work"
   },
+  "Heading": {
+    "exp-title": "3 years",
+    "exp-subtitle": "experience",
+    "stack-title": "react / node",
+    "stack-subtitle": "main stack",
+    "location-title": "floripa / br",
+    "location-subtitle": "location",
+    "languages-title": "pt, en, es",
+    "languages-subtitle": "languages"
+  },
   }
 }

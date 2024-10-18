@@ -22,5 +22,15 @@
     "about": "sobre",
     "work": "experiência"
   },
+  "Heading": {
+    "exp-title": "3 anos",
+    "exp-subtitle": "experiência",
+    "stack-title": "react / node",
+    "stack-subtitle": "stack principal",
+    "location-title": "floripa / br",
+    "location-subtitle": "localização",
+    "languages-title": "pt, en, es",
+    "languages-subtitle": "idiomas"
+  },
   }
 }
