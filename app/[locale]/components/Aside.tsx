@@ -5,13 +5,13 @@ export default function AsideInfo() {
   const t = useTranslations('Profile');
 
   return (
-    <div className="flex md:flex-col items-center justify-evenly flex-1 gap-4 px-4 py-3">
+    <div className="flex md:flex-col items-center justify-evenly md:justify-center flex-1 gap-4 md:gap-0 px-4 py-3">
       <Image
         src="/profile_photo.jpg"
         alt=""
         width={150}
         height={150}
-        className="h-auto w-auto max-h-[150px] max-w-[150px] min-h-[100px] min-w-[100px] rounded-full my-4"
+        className="h-auto w-auto max-h-[150px] max-w-[150px] min-h-[100px] min-w-[100px] rounded-full md:my-4"
       />
       <div className="flex flex-col items-center justify-center flex-shrink-0">
         <h1 className="font-medium text-xl sm:text-2xl">João Vítor Ferraz</h1>

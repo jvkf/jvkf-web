@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="h-full">
       <Bar />
-      <div className={clsx('pt-16 text-center', rubik.className)}>
+      <div className={clsx('pt-8 md:pt-16 text-center', rubik.className)}>
         <a
           className="font-medium text-lg text-off-white"
           target="_blank"
