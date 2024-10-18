@@ -3,9 +3,6 @@
     "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
     "title": "Something went wrong!"
   },
-  "Home": {
-    "test": "hello world"
-  },
   "HomeLayout": {
     "title": "João Vítor Ferraz (p1pa) - Fullstack Developer",
     "description": "In progress..."
@@ -17,6 +14,9 @@
   "Footer": {
     "cv-name": "resume",
     "cv-link": "/"
+  },
+  "Switch": {
+    "sr-text": "Click to change to the language:"
   },
   "Navigation": {
     "about": "about",
@@ -32,5 +32,20 @@
     "languages-title": "pt, en, es",
     "languages-subtitle": "languages"
   },
+  "Profile": {
+    "subtitle": "fullstack developer",
+    "email-text": "Click to email me (opens your client mail)",
+    "email-address": "mailto:hi@p1pa.dev",
+    "linkedin-text": "Click to open my LinkedIn Profile",
+    "github-text": "Click to open my Github Profile"
+  },
+  "Bio": {
+    "text": [
+      "Hey there! My name is João, but you can call me Jay or p1pa!",
+      "I'm a full-stack software developer with three years of experience. I mainly use TypeScript to build clean, performant applications. My go-to stack is React & Node, paired with frameworks like Next and Express, and tools such as Docker and Git.",
+      "I'm highly adaptable and have built many transferable skills that enable me to participate in all steps of the product development cycle. These include problem-solving, effective communication, and work on agile methodologies."
+    ],
+    "link-paragraph": "Want to find out more about my skills in action? Check out my ",
+    "link-text": "work tab."
   }
 }

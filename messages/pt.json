@@ -3,9 +3,6 @@
     "description": "<p>Infelizmente, encontramos um erro.</p><p>Você pode tentar <retry>recarregar a página</retry> que estava visitando.</p>",
     "title": "Algo deu errado!"
   },
-  "Home": {
-    "test": "olá mundo"
-  },
   "HomeLayout": {
     "title": "João Vítor Ferraz (p1pa) - Desenvolvedor Fullstack",
     "description": "Em progresso..."
@@ -17,6 +14,9 @@
   "Footer": {
     "cv-name": "currículo",
     "cv-link": "/"
+  },
+  "Switch": {
+    "sr-text": "Clique para mudar o idioma para:"
   },
   "Navigation": {
     "about": "sobre",
@@ -32,5 +32,20 @@
     "languages-title": "pt, en, es",
     "languages-subtitle": "idiomas"
   },
+  "Profile": {
+    "subtitle": "desenvolvedor fullstack",
+    "email-text": "Clique para me mandar um email (abre o seu cliente de email)",
+    "email-address": "mailto:oi@p1pa.dev",
+    "linkedin-text": "Clique para abrir meu perfil no LinkedIn",
+    "github-text": "Clique para abrir meu perfil no Github"
+  },
+  "Bio": {
+    "text": [
+      "Olá! Meu nome é João, mas você pode me chamar de Jota ou p1pa!",
+      "Sou um desenvolvedor de software full-stack com três anos de experiência. Uso principalmente TypeScript para construir aplicações limpas e performáticas. Minha stack preferida é React & Node, combinada com frameworks como Next e Express, e ferramentas como Docker e Git.",
+      "Sou altamente adaptável e desenvolvi muitas habilidades transferíveis que me permitem participar de todas as etapas do ciclo de desenvolvimento de produto. Isso inclui solução de problemas, comunicação eficaz e trabalho em metodologias ágeis."
+    ],
+    "link-paragraph": "Quer saber mais sobre minhas habilidades? Confira a ",
+    "link-text": "aba de experiência."
   }
 }
