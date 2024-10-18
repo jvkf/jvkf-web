@@ -9,7 +9,7 @@ type Props = {
   params: { locale: string };
 };
 
-export default function Home({ params: { locale } }: Props) {
+export default function HomePage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
 
   return (

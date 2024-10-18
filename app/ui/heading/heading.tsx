@@ -6,7 +6,7 @@ export default function Heading() {
   const t = useTranslations('Heading');
 
   return (
-    <aside className="flex items-center justify-center text-off-white w-full">
+    <aside className="flex items-center justify-center text-off-white w-full pb-12">
       <div className="w-[15%] h-px bg-off-white flex-shrink"></div>
       <div className="flex flex-row flex-wrap flex-auto gap-x-8 gap-y-4 px-6">
         <HeadingItem title={t('exp-title')} subtitle={t('exp-subtitle')} />
