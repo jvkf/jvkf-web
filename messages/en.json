@@ -47,5 +47,43 @@
     ],
     "link-paragraph": "Want to find out more about my skills in action? Check out my ",
     "link-text": "work tab."
+  },
+  "Work": {
+    "Experience": {
+      "title": "experience",
+      "jobs": [
+        {
+          "title": "frontend developer I & II @ Q4 inc",
+          "period": "sep 2022 - may 2024",
+          "description": "while at Q4, i deployed various websites and solutions for their ir clients using js, sass, and mustache.js. i handled several projects that involved complex figma designs and multiple stakeholders. i also managed internal tools, such as a scraper built with puppeteer (node + ts), and contributed to improving our squad’s integration, leading to enhancements in our communication, design system, and projects with fewer bugs. my career highlight working there was when I built the website for Johnson & Johnson - specially, i used the papaparse library to create a custom pipeline page that displayed information from an excel table provided by them."
+        },
+        {
+          "title": "freelance developer",
+          "period": "jan 2022 - present",
+          "description": "i taught myself web development and have been building projects for study, personal use, and for other independent professionals who trust my services to create high-converting applications. i also began contributing to open source projects after studying the curriculum from the odin project, which was the beginning of my journey in this area alongside a fullstack bootcamp that i did at ironhack."
+        }
+      ]
+    },
+    "Skills": {
+      "title": "skills",
+      "list": [
+        {
+          "title": "languages",
+          "tech": "typescript"
+        },
+        {
+          "title": "frontend",
+          "tech": "react, next, astro, tailwind, styled components, sass, vite, webpack"
+        },
+        {
+          "title": "backend",
+          "tech": "node, express, postgresql, mongodb, prismaorm, jwt, oauth, rest, mvc"
+        },
+        {
+          "title": "others",
+          "tech": "jest, tdd, git, linux, docker, solid, ci/cd"
+        }
+      ]
+    }
   }
 }

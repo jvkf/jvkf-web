@@ -47,5 +47,43 @@
     ],
     "link-paragraph": "Quer saber mais sobre minhas habilidades? Confira a ",
     "link-text": "aba de experiência."
+  },
+  "Work": {
+    "Experience": {
+      "title": "experiência",
+      "jobs": [
+        {
+          "title": "desenvolvedor frontend I & II @ Q4 inc",
+          "period": "set 2022 - mai 2024",
+          "description": "durante minha jornada na Q4, implementei diversos sites e soluções para seus clientes de relação com investidores usando js, sass e mustache.js. gerenciei vários projetos que envolviam designs complexos no figma e múltiplos stakeholders. também administrei ferramentas internas, como um scraper construído com puppeteer (node + ts), e contribuí para melhorar a integração da nossa equipe, levando a aprimoramentos em nossa comunicação, sistema de design e projetos com menos bugs. o ponto alto da minha carreira na empresa foi quando construí o site da Johnson & Johnson - em especial, usei a biblioteca papaparse para criar uma página de pipeline personalizada que exibia informações de uma tabela excel fornecida por eles."
+        },
+        {
+          "title": "desenvolvedor freelance",
+          "period": "jan 2022 - presente",
+          "description": "aprendi desenvolvimento web por conta própria e venho construindo projetos para estudo, uso pessoal e para outros profissionais independentes que confiam em meus serviços para criar aplicações de alta conversão de clientes. também comecei a contribuir para projetos de código aberto após estudar o currículo do the odin project, que foi o início da minha jornada nesta área, junto com um bootcamp fullstack que fiz na ironhack."
+        }
+      ]
+    },
+    "Skills": {
+      "title": "habilidades",
+      "list": [
+        {
+          "title": "linguagens",
+          "tech": "typescript"
+        },
+        {
+          "title": "frontend",
+          "tech": "react, next, astro, tailwind, styled components, sass, vite, webpack"
+        },
+        {
+          "title": "backend",
+          "tech": "node, express, postgresql, mongodb, prismaorm, jwt, oauth, rest, mvc"
+        },
+        {
+          "title": "outros",
+          "tech": "jest, tdd, git, linux, docker, solid, ci/cd"
+        }
+      ]
+    }
   }
 }
