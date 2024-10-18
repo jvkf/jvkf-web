@@ -77,5 +77,10 @@
         }
       ]
     }
+  },
+  "NotFound": {
+    "title": "Essa página não existe!",
+    "message": "Voltar para página inicial:",
+    "link-text": "clique aqui"
   }
 }
