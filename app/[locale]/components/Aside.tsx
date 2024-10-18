@@ -7,8 +7,8 @@ export default function AsideInfo() {
   return (
     <div className="flex md:flex-col items-center justify-evenly md:justify-center flex-1 gap-4 md:gap-0 px-4 py-3">
       <Image
-        src="/profile_photo.jpg"
-        alt=""
+        src="/profile.jpg"
+        alt="Profile Photo"
         width={150}
         height={150}
         className="h-auto w-auto max-h-[150px] max-w-[150px] min-h-[100px] min-w-[100px] rounded-full md:my-4"
