@@ -1,4 +1,4 @@
-# João Vítor Ferraz (p1pa) - Personal Website
+# João Vítor Ferraz - Personal Website
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and professional experience as a fullstack developer so far. Built with modern technologies and best practices, the website serves as a dynamic platform to present my expertise and connect with potential collaborators and employers.
 
