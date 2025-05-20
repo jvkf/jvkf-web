@@ -32,7 +32,7 @@ export default function AsideInfo() {
             </a>
           </li>
           <li>
-            <a href="https://github.com/p1padev" target="_blank">
+            <a href="https://github.com/jvkf" target="_blank">
               <img
                 src="/github.svg"
                 alt=""
