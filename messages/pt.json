@@ -1,6 +1,6 @@
 {
   "HomeLayout": {
-    "title": "João Vítor Ferraz (p1pa) - Desenvolvedor Fullstack",
+    "title": "João Vítor Ferraz - Desenvolvedor Fullstack",
     "description": "Desenvolvedor fullstack com 3 anos de expertise em React, Node.js e TypeScript. Fluente em português, inglês e espanhol. Vivendo em Florianópolis, Brasil."
   },
   "Footer": {
@@ -27,13 +27,13 @@
   "Profile": {
     "subtitle": "desenvolvedor fullstack",
     "email-text": "Clique para me mandar um email (abre o seu cliente de email)",
-    "email-address": "mailto:oi@p1pa.dev",
+    "email-address": "mailto:jvkferraz@gmail.com",
     "linkedin-text": "Clique para abrir meu perfil no LinkedIn",
     "github-text": "Clique para abrir meu perfil no Github"
   },
   "Bio": {
     "text": [
-      "Olá! Meu nome é João, mas você pode me chamar de Jota ou p1pa!",
+      "Olá! Meu nome é João, mas você pode me chamar de Jota!",
       "Sou um desenvolvedor de software full-stack com três anos de experiência. Uso principalmente TypeScript para construir aplicações limpas e performáticas. Minha stack preferida é React & Node, combinada com frameworks como Next e Express, e ferramentas como Docker e Git.",
       "Sou altamente adaptável e desenvolvi muitas habilidades transferíveis que me permitem participar de todas as etapas do ciclo de desenvolvimento de produto. Isso inclui solução de problemas, comunicação eficaz e trabalho em metodologias ágeis."
     ],

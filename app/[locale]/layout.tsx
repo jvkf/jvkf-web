@@ -34,7 +34,7 @@ export async function generateMetadata({
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url: 'https://www.p1pa.dev/',
+      url: 'https://jvkf-web.vercel.app',
       type: 'website',
       images: [
         {
