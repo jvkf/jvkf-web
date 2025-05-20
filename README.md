@@ -28,7 +28,7 @@ The primary goal of this project is to create a professional and personal online
 
 ## 📫 Contact
 
-Feel free to reach out to me via [email](mailto:hi@p1pa.dev) or connect with me on [LinkedIn](https://linkedin.com/in/jvkf) and [GitHub](https://github.com/p1padev).
+Feel free to reach out to me via [email](mailto:jvkferraz@gmail.com) or connect with me on [LinkedIn](https://linkedin.com/in/jvkf) and [GitHub](https://github.com/jvkf).
 
 ---
 
