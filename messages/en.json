@@ -34,9 +34,7 @@
   "Bio": {
     "text": [
       "Software Engineer who transforms challenges into robust technology solutions. Nice to meet you, I'm João!",
-      "With 3 years of experience and a passion for problem-solving, since entering the field I've been seeking to stay in tune with the fundamentals of computing and keep up with the latest technologies for the Internet. This pursuit of knowledge translates into important achievements, such as the recent completion of Harvard's CS50x course.",
-      "Currently, my specialty is building differentiated, responsive, and scalable Frontend applications in the TypeScript and React ecosystem. To ensure the delivery of complete solutions and interact with other teams, I also have solid backend experience with Node.js, such as developing REST APIs, integrating with different databases and messaging systems. I also work with DevOps practices, using Docker and Terraform (IaC) to provision and manage infrastructure on GCP routinely.",
-      "I believe technology gains strength through people. I'm fortunate to currently be building cutting-edge software for the industry at Dynamox, where communication and proactivity allow us to deliver differentiated solutions to our clients."
+      "With 3 years of experience and a passion for problem-solving, since entering the field I've been seeking to stay in tune with the fundamentals of computing and keep up with the latest technologies for the Internet. This pursuit of knowledge translates into important achievements, such as the recent completion of Harvard's CS50x course."
     ],
     "link-paragraph": "Want to find out more about my skills in action? Check out my ",
     "link-text": "work tab."

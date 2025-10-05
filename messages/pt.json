@@ -34,9 +34,7 @@
   "Bio": {
     "text": [
       "Engenheiro de Software que transforma desafios em soluções de tecnologia robustas. Prazer, sou o João!",
-      "Com 3 anos de experiência e uma paixão por resolver problemas, desde que entrei na área busco estar em sintonia com as bases do mundo da computação e me atualizar com os lançamentos em tecnologias para a Internet. Essa busca por conhecimento se traduz em conquistas importantes, como a recente conclusão do curso CS50x de Harvard.",
-      "Atualmente, minha especialidade é construir aplicações de Frontend diferenciadas, responsivas e escaláveis no ecossistema TypeScript e React. E para garantir a entrega de soluções completas e interagir com outros times, possuo também uma sólida experiência no backend com Node.js, como no desenvolvimento de APIs REST, na integração com diferentes bancos de dados e sistemas de mensageria. Também trabalho com práticas de DevOps, utilizando Docker e Terraform (IaC) para provisionar e gerenciar a infraestrutura na GCP rotineiramente.",
-      "Acredito que a tecnologia ganha força através das pessoas. Tenho a sorte de atualmente estar construindo software de ponta para a indústria na Dynamox, onde a comunicação e a proatividade nos permitem entregar soluções diferenciadas para nossos clientes."
+      "Atualmente, minha especialidade é construir aplicações de Frontend diferenciadas, responsivas e escaláveis no ecossistema TypeScript e React. E para garantir a entrega de soluções completas e interagir com outros times, possuo também uma sólida experiência no backend com Node.js, como no desenvolvimento de APIs REST, na integração com diferentes bancos de dados e sistemas de mensageria. Também trabalho com práticas de DevOps, utilizando Docker e Terraform (IaC) para provisionar e gerenciar a infraestrutura na GCP rotineiramente."
     ],
     "link-paragraph": "Quer saber mais sobre minhas habilidades em ação? Confira a ",
     "link-text": "aba de experiência."
