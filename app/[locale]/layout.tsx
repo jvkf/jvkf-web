@@ -10,22 +10,26 @@ import { NextIntlClientProvider } from 'next-intl';
 import {
   getMessages,
   getTranslations,
-  unstable_setRequestLocale,
+  setRequestLocale,
 } from 'next-intl/server';
 import { ReactNode } from 'react';
 
 type Props = {
   children: ReactNode;
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 };
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({
-  params: { locale },
-}: Omit<Props, 'children'>): Promise<Metadata> {
+export async function generateMetadata(props: Omit<Props, 'children'>): Promise<Metadata> {
+  const params = await props.params;
+
+  const {
+    locale
+  } = params;
+
   const t = await getTranslations({ locale, namespace: 'HomeLayout' });
 
   return {
@@ -59,11 +63,18 @@ export async function generateMetadata({
   };
 }
 
-export default async function HomeLayout({
-  children,
-  params: { locale },
-}: Props) {
-  unstable_setRequestLocale(locale);
+export default async function HomeLayout(props: Props) {
+  const params = await props.params;
+
+  const {
+    locale
+  } = params;
+
+  const {
+    children
+  } = props;
+
+  setRequestLocale(locale);
   const messages = await getMessages();
   const lang = locale === 'en' ? 'en-US' : 'pt-BR';
 

@@ -19,5 +19,9 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/', '/(en|pt)/:path*', '/pt-cv.pdf', '/english-cv.pdf'],
+  matcher: [
+    '/((?!api|_next|_vercel|.*\\..*).*)',
+    '/pt-cv.pdf',
+    '/english-cv.pdf',
+  ],
 };
