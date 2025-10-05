@@ -1,7 +1,7 @@
 {
   "HomeLayout": {
     "title": "João Vítor Ferraz - Fullstack Developer",
-    "description": "Experienced fullstack developer with 3 years of expertise in React, Node.js, and TypeScript. Fluent in Portuguese, English, and Spanish. Based in Florianópolis, Brazil."
+    "description": "Software Engineer who transforms challenges into robust technology solutions. With 3 years of experience building differentiated, responsive, and scalable Frontend applications in the TypeScript and React ecosystem, plus backend experience with Node.js, REST APIs, databases, and DevOps practices. Based in Florianópolis, Brazil."
   },
   "Footer": {
     "cv-name": "resume",
@@ -33,9 +33,10 @@
   },
   "Bio": {
     "text": [
-      "Hey there! My name is João, but you can call me Jay!",
-      "I'm a full-stack software developer with three years of experience. I mainly use TypeScript to build clean, performant applications. My go-to stack is React & Node, paired with frameworks like Next and Express, and tools such as Docker and Git.",
-      "I'm highly adaptable and have built many transferable skills that enable me to participate in all steps of the product development cycle. These include problem-solving, effective communication, and work on agile methodologies."
+      "Software Engineer who transforms challenges into robust technology solutions. Nice to meet you, I'm João!",
+      "With 3 years of experience and a passion for problem-solving, since entering the field I've been seeking to stay in tune with the fundamentals of computing and keep up with the latest technologies for the Internet. This pursuit of knowledge translates into important achievements, such as the recent completion of Harvard's CS50x course.",
+      "Currently, my specialty is building differentiated, responsive, and scalable Frontend applications in the TypeScript and React ecosystem. To ensure the delivery of complete solutions and interact with other teams, I also have solid backend experience with Node.js, such as developing REST APIs, integrating with different databases and messaging systems. I also work with DevOps practices, using Docker and Terraform (IaC) to provision and manage infrastructure on GCP routinely.",
+      "I believe technology gains strength through people. I'm fortunate to currently be building cutting-edge software for the industry at Dynamox, where communication and proactivity allow us to deliver differentiated solutions to our clients."
     ],
     "link-paragraph": "Want to find out more about my skills in action? Check out my ",
     "link-text": "work tab."
@@ -45,14 +46,14 @@
       "title": "experience",
       "jobs": [
         {
-          "title": "frontend developer I & II @ Q4 inc",
-          "period": "sep 2022 - may 2024",
-          "description": "while at Q4, i deployed various websites and solutions for their ir clients using js, sass, and mustache.js. i handled several projects that involved complex figma designs and multiple stakeholders. i also managed internal tools, such as a scraper built with puppeteer (node + ts), and contributed to improving our squad’s integration, leading to enhancements in our communication, design system, and projects with fewer bugs. my career highlight working there was when I built the website for Johnson & Johnson - specially, i used the papaparse library to create a custom pipeline page that displayed information from an excel table provided by them."
+          "title": "fullstack developer @ dynamox",
+          "period": "nov 2024 - present",
+          "description": "as a member of the core foundation team, i build and maintain critical applications, improve developer productivity across the organization, and manage cloud infrastructure. i develop and maintain features for a micro-frontend platform using vite, react, typescript, materialui, and redux. i designed and implemented from scratch an automated translation application with node.js, typescript, and gemini's ai api to support international market expansion. i performed maintenance on back-end services in node.js with express and mongodb, working on rate limiting and rbac codebases. i manage and provision cloud infrastructure on gcp using terraform (iac). i implement and refactor unit and e2e tests with vitest, rtl, and cypress. i create comprehensive technical documentation and adrs, improving team efficiency."
         },
         {
-          "title": "freelance developer",
-          "period": "jan 2022 - present",
-          "description": "i taught myself web development and have been building projects for study, personal use, and for other independent professionals who trust my services to create high-converting applications. i also began contributing to open source projects after studying the curriculum from the odin project, which was the beginning of my journey in this area alongside a fullstack bootcamp that i did at ironhack."
+          "title": "frontend developer @ Q4 inc",
+          "period": "sep 2022 - may 2024",
+          "description": "i developed and delivered investor relations (ir) websites for over 50 clients using a proprietary cms, javascript, sass, and jquery. i evolved in the role and began maintaining internal tools and facilitating processes between product, design, and qa teams. i led the development of ir websites for johnson & johnson, paypal, and krispy kreme, successfully managing stakeholder expectations. i improved the website production pipeline through standardization of components in figma, improvements in technical communication with clients, and optimization of qa processes. i contributed to the maintenance of internal tools, including a web scraper developed with node.js and puppeteer."
         }
       ]
     },
@@ -61,19 +62,19 @@
       "list": [
         {
           "title": "languages",
-          "tech": "typescript"
+          "tech": "typescript, javascript, python, sql"
         },
         {
           "title": "frontend",
-          "tech": "react, next, astro, tailwind, styled components, sass, vite, webpack"
+          "tech": "react, next, vite, redux, zustand, materialui, tailwind, sass, cypress, vitest, rtl"
         },
         {
           "title": "backend",
-          "tech": "node, express, postgresql, mongodb, prismaorm, jwt, oauth, rest, mvc"
+          "tech": "node, nestjs, express, postgresql, mongodb, redis, prismaorm, jwt, oauth, rest, mvc"
         },
         {
-          "title": "others",
-          "tech": "jest, tdd, git, linux, docker, solid, ci/cd"
+          "title": "devops & tools",
+          "tech": "docker, terraform, google cloud (gcp), ci/cd, git, new relic, grafana"
         }
       ]
     }
