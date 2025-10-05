@@ -3,14 +3,18 @@
 import { Link, Pathnames } from '@/i18n/routing';
 import clsx from 'clsx';
 import { useSelectedLayoutSegment } from 'next/navigation';
-import { ComponentPropsWithoutRef } from 'react';
+import { ComponentProps } from 'react';
 import { rubik } from '../fonts';
 
-export default function NavigationLink<Pathname extends Pathnames>({
+type NavigationLinkProps = ComponentProps<typeof Link> & {
+  href: Pathnames;
+};
+
+export default function NavigationLink({
   href,
   children,
   ...rest
-}: ComponentPropsWithoutRef<typeof Link<Pathname>>) {
+}: NavigationLinkProps) {
   const selectedLayoutSegment = useSelectedLayoutSegment();
   const pathname = selectedLayoutSegment ? `/${selectedLayoutSegment}` : '/';
   const isActive = pathname === href;

@@ -2,7 +2,6 @@ import { inter } from '@/app/ui/fonts';
 import Footer from '@/app/ui/footer/footer';
 import '@/app/ui/global.css';
 import Navigation from '@/app/ui/navigation/navigation';
-import type { Locale } from '@/i18n/routing';
 import { routing } from '@/i18n/routing';
 import clsx from 'clsx';
 import type { Metadata } from 'next';
@@ -16,7 +15,7 @@ import { ReactNode } from 'react';
 
 type Props = {
   children: ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 };
 
 export function generateStaticParams() {
